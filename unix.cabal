@@ -93,6 +93,7 @@ Library
     install-includes:
         HsUnix.h HsUnixConfig.h execvpe.h
     c-sources:	cbits/HsUnix.c cbits/execvpe.c cbits/dirUtils.c
+    extra-libraries: pthread
 
 source-repository head
     type:     git
